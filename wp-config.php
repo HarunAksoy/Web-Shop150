@@ -1,9 +1,3 @@
-WordPress
-
-Die Datei wp-config.php ist nicht beschreibbar.
-
-Sie können die Datei wp-config.php manuell erstellen und den nachfolgenden Text dort einfügen.
-
 <?php
 /**
  * In dieser Datei werden die Grundeinstellungen für WordPress vorgenommen.
@@ -89,6 +83,5 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-Nachdem Sie das erledigt haben, klicken Sie auf „Installation durchführen“.
 
-Installation durchführen
+define('FS_METHOD', 'direct');
